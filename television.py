@@ -6,7 +6,8 @@ class Television:
 
     def __init__(self) -> None:
         """
-        initializes status, muted, volume, and channel variables. Sets both volume and channel to their min values.
+        initializes status, muted, volume, and channel  private variables. Sets both volume and channel to their min
+        values.
         """
         self.__status = False
         self.__muted = False
